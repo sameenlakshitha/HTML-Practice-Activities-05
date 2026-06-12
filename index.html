@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 05</title>
 </head>
+
 <body>
-    
+
+    <h1 id="top">📚Apex Bookshop and & Stationers</h1>
+    <p>Welcome to our school bookshop. Use the quick links below to jump straight to your section</p>
+    <ul>
+        <li>
+            <a href="#story">Story books section</a>
+        </li>
+        <li>
+            <a href="#textbook">Textbooks section</a>
+        </li>
+        <li>
+            <a href="#place">Place an order</a>
+        </li>
+    </ul>
+    <h2 id="story">📖 Story Books Section</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Book Cover</th>
+            <th>Book Title & Details</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td><img width="100" src="assets/pics/the secret island cover.jpg"> </td>
+            <td>
+                <b>The Secret Island</b><br>
+                <small>Author: Enid Blyton</small>
+                <p>An exiting adventure story about four children spending their holidays on a hidden island.</p>
+            </td>
+            <td>Rs. 850.00</td>
+            <td><mark>In Stock</mark></td>
+        </tr>
+        <tr>
+            <td><img width="103" src="assets/pics/madol duwa .jpeg"></td>
+            <td>
+                <b>Madol Duuwa</b><br>
+                <small>Author: Martin Wicramasinghe</small>
+                <p>A classic Sinhalese novel translated into English, showcasing the lives of teenage boys on isolated
+                    island.
+                </p>
+            </td>
+            <td>Rs. 600.00</td>
+            <td><mark>In stock</mark></td>
+        </tr>
+    </table>
+    <br>
+    <a href="#top">🔺 Back to Top</a>
+    <hr>
+    <h2>📝 School Textbooks</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Subject</th>
+            <th>Grade</th>
+            <th>Medium</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Information & Commiunication Technology (ICT)</td>
+            <td>Grade 11 / 10</td>
+            <td>English Medium</td>
+            <td>Rs. 450.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>Grade 11</td>
+            <td>English Medium</td>
+            <td>Rs. 520.00</td>
+            <td><del>Out of Stock</del></td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="#top">🔺 Back to Top</a>
+    <hr>
+    <h2>🛒 Quick Order Reservation</h2>
+    <p>Fill out this form to reserve your books before coming to the store.</p>
+    <fieldset>
+        <legend>Order Details</legend>
+        <label for="admission number">Student Admission No:</label><br>
+        <input type="text" placeholder="e.g., ST-1234"><br><br>
+        <label for="reserve">Select Book to Reserve:</label><br>
+        <select>
+            <option>The Secret Island Rs. 850.00</option>
+            <option>Madol Duuwa Rs.650.00</option>
+        </select><br><br>
+        <label>Preffred Collection Date:</label>
+        <input type="date"><br><br>
+        <label>Speciol Notes /I nstructions</label><br>
+        <textarea rows="5" cols="80"></textarea><br>
+        <input type="submit" value="Submit Reservation">
+        <input type="submit" value="Reset Form">
+    </fieldset>
+    <br>
+    <p>&copy; 2026 Apex School Management System.</p>
 </body>
+
 </html>
